@@ -1,5 +1,27 @@
 # flutter_js_webpack
 
+```bash
+git clone https://github.com/flutter/flutter.git
+export PATH="$PATH:[PATH_OF_FLUTTER_GIT_DIRECTORY]/bin"
+flutter doctor
+flutter precache
+
+# ios similator
+sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer
+sudo xcodebuild -runFirstLaunch
+open -a Simulator
+
+# Run Flutter
+cd flutter_js_webpack
+flutter pub get
+flutter run
+
+# Build webpack
+npm i
+npm run build
+```
+
+
 A new Flutter project.
 
 ## Getting Started
